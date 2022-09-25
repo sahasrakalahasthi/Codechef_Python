@@ -1,0 +1,12 @@
+# cook your dish here
+def result(i):
+    m,n=map(int,input().split())
+    if n>=m:
+        print(m)
+    else:
+        res=m+(m-n)
+        print(res)
+    
+t=int(input())
+for i in range(t):
+    result(i)
